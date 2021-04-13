@@ -1,0 +1,17 @@
+@import "../scss/components/header";
+@import "../scss/components/btn";
+@import "../scss/components/card";
+@import "../scss/components/tariffs";
+@import "../scss/components/slider";
+@import "../scss/components/form";
+
+body {
+  background: #e7e6e6;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

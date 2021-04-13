@@ -1,0 +1,34 @@
+.container__slider {
+  width: 1110px;
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+.slider {
+  &-wrapper {
+    margin: 0 -5px;
+  }
+
+  &-item {
+    margin: 5px;
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 100px 0;
+    &-prev {
+      margin-right: 30px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    &-next {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+}

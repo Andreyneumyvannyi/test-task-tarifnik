@@ -1,0 +1,239 @@
+.card {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  width: 350px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  transition: all 0.2s linear;
+
+  &:not(:nth-child(3n)) {
+    margin-right: 20px;
+  }
+
+  &:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 15px -2px rgba(34, 60, 80, 0.18);
+  }
+
+  &-tariff {
+    padding: 5px 0 20px 0;
+    border-bottom: 1px solid #d6d6d6;
+    &-text {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 500;
+      width: 100%;
+    }
+  }
+
+  &__attention {
+    display: flex;
+  }
+
+  &-sentence {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+    background: #f08c00;
+    padding: 5px 0;
+    width: 120px;
+    border-radius: 5px;
+    animation: pulsing 2s infinite;
+    &-text {
+      font-size: 12px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: 1.5px;
+    }
+
+    &_sale {
+      background: #f08c00;
+    }
+
+    &_hot {
+      background: #e30611;
+    }
+
+    &_exclusive {
+      background: #913f98;
+    }
+
+    &_tv {
+      background: #0082c8;
+    }
+  }
+
+  &-parameters {
+    margin-top: 30px;
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  &-parameter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &-icon {
+      width: 35px;
+      height: 35px;
+    }
+
+    &-description {
+      margin-left: 15px;
+      &-title {
+        color: #b1afaf;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 5px;
+      }
+
+      &-text {
+        width: 200px;
+        font-size: 18px;
+        line-height: 20px;
+
+        &-digit {
+          font-size: 28px;
+          line-height: 22px;
+          font-weight: 600;
+          margin-right: 5px;
+        }
+      }
+
+      &-phone {
+        &-item {
+          &-text {
+            font-size: 16px;
+            &-digit {
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__info {
+    &-connection {
+      &-wrapper {
+        padding: 20px 0;
+        border-bottom: 1px solid #d6d6d6;
+      }
+      display: flex;
+      align-items: center;
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+
+      &-icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  &__connection {
+    padding: 20px 0;
+    border-bottom: 1px solid #d6d6d6;
+  }
+
+  &__equipment {
+    &-text {
+      font-size: 15px;
+    }
+    &-price {
+      color: #b1afaf;
+      font-size: 12px;
+      line-height: 18px;
+      margin-left: 10px;
+    }
+  }
+
+  &__order {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+
+    &-digit {
+      font-size: 42px;
+      line-height: 48px;
+      margin-right: 8px;
+      font-weight: 600;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+      line-height: 10px;
+
+      &-line {
+        font-size: 0;
+        line-height: 0;
+        height: 1px;
+        margin: 5px 0 2px 0;
+        background: #e30611;
+      }
+    }
+  }
+
+  &__details {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    &-link {
+      font-size: 14px;
+      line-height: 14px;
+      text-decoration: none;
+      color: #b1afaf;
+      cursor: pointer;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: #e30611;
+      }
+    }
+  }
+}
+
+.form-check-input {
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #e30611;
+  border-color: #e30611;
+}
+.form-check-input:focus {
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+@keyframes pulsing {
+  0% {
+    transform: scale(0.9, 0.9);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.9, 0.9);
+  }
+}
