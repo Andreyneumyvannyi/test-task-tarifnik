@@ -203,6 +203,10 @@
       line-height: 48px;
       margin-right: 8px;
       font-weight: 500;
+
+      @media (max-width: 575.98px) {
+        font-size: 32px;
+      }
     }
 
     &-text {

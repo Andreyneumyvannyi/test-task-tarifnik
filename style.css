@@ -421,6 +421,12 @@
   font-weight: 500;
 }
 
+@media (max-width: 575.98px) {
+  .card__price-digit {
+    font-size: 32px;
+  }
+}
+
 .card__price-text {
   display: -webkit-box;
   display: -ms-flexbox;
