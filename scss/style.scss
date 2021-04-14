@@ -4,6 +4,9 @@
 @import "../scss/components/tariffs";
 @import "../scss/components/slider";
 @import "../scss/components/form";
+@import "../scss/components/hot-line";
+@import "../scss/components/map";
+@import "../scss/components/modal";
 
 body {
   background: #e7e6e6;
@@ -11,7 +14,7 @@ body {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
 }

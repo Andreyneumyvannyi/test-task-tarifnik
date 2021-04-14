@@ -2,15 +2,37 @@
   width: 1110px;
   margin: 0 auto;
 
+  @media (max-width: 1199.98px) {
+    width: 720px;
+  }
+
+  @media (max-width: 767.98px) {
+    width: 620px;
+  }
+
+  @media (max-width: 679.98px) {
+    width: 300px;
+  }
+
+  @media (max-width: 320px) {
+    width: 275px;
+  }
+
   overflow: hidden;
 }
 .slider {
   &-wrapper {
     margin: 0 -5px;
+    @media (max-width: 679.98px) {
+      margin: 0;
+    }
   }
 
   &-item {
     margin: 5px;
+    @media (max-width: 679.98px) {
+      margin: 0;
+    }
   }
 
   &__control {

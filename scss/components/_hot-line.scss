@@ -1,0 +1,56 @@
+.hot-line {
+  background: #fff;
+  height: auto;
+  padding: 50px 0;
+  margin-top: 100px;
+
+  @media (max-width: 767.98px) {
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    width: 700px;
+
+    @media (max-width: 767.98px) {
+      width: 300px;
+    }
+
+    @media (max-width: 575.98px) {
+      font-size: 12px;
+      width: 200px;
+    }
+  }
+
+  &__number {
+    display: flex;
+    justify-content: center;
+    color: #b1afaf;
+    font-size: 44px;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    margin-top: 50px;
+
+    @media (max-width: 767.98px) {
+      margin-top: 20px;
+    }
+
+    @media (max-width: 575.98px) {
+      font-size: 28px;
+    }
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
