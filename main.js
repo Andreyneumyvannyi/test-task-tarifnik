@@ -3,6 +3,9 @@ let marker;
 let modalMap;
 let modalMapMarker;
 
+const burger = document.querySelector("#checkbox3")
+const headerMobile = document.querySelector(".header-mobile")
+
 /* Slick slider
 ================*/
 
@@ -122,8 +125,8 @@ $('a[href^="#"]').click(function(){
   }, 200);
 });
 
-let burger = document.querySelector("#checkbox3")
-let headerMobile = document.querySelector(".header-mobile")
+/* Burger
+=========*/
 
 burger.addEventListener("click", () =>{
   headerMobile.classList.toggle("header-mobile_active");
