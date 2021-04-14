@@ -121,3 +121,10 @@ $('a[href^="#"]').click(function(){
   scrollTop:  $(anchor).offset().top - fixed_offset
   }, 200);
 });
+
+let burger = document.querySelector("#checkbox3")
+let headerMobile = document.querySelector(".header-mobile")
+
+burger.addEventListener("click", () =>{
+  headerMobile.classList.toggle("header-mobile_active");
+})

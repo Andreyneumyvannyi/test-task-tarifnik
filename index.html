@@ -26,6 +26,7 @@
   <body>
     <!--Header-->
     <header class="header">
+      <h1 class="heading">MTC тарифы</h1>
       <div class="container">
         <div class="header__inner">
           <div class="header__logo">
@@ -52,9 +53,49 @@
           <div class="header__button">
             <button type="button" class="btn btn-danger btn_red" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Подключить</button>
           </div>
+          <!--Burger-->
+          <div class="header__burger">
+            <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+            <label for="checkbox3">
+              <div class="hamburger hamburger3">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+              </div>
+            </label>
+          </div>
+        </div>
+        <!--Header Mobile-->
+        <div class="header-mobile">
+          <nav class="header__nav header__nav_mobile">
+            <ul class="header__nav-list header__nav-list_mobile">
+              <li class="header__nav-item header__nav-item_mobile">
+                <a href="#tariffs-all" class="header__nav-link header__nav-link_mobile">Связь + Интернет + ТВ</a>
+              </li>
+              <li class="header__nav-item header__nav-item_mobile">
+                <a href="#tariffs-internet-plus-tv" class="header__nav-link header__nav-link_mobile">Интернет + ТВ</a>
+              </li>
+              <li class="header__nav-item header__nav-item_mobile">
+                <a href="#tariffs-internet" class="header__nav-link header__nav-link_mobile">Интернет</a>
+              </li>
+              <li class="header__nav-item header__nav-item_mobile">
+                <a href="#tariffs-tv" class="header__nav-link header__nav-link_mobile">Цифровое ТВ</a>
+              </li>
+              <li class="header__nav-item header__nav-item_mobile">
+                <button type="button" class="btn btn-danger btn_red" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Подключить</button>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+
     </header>
+
+
+
+
+
 
     <!--Main-->
     <main class="main">
