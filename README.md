@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Тестовое задания для компании Tarifnik.ru</h1>
+  <h1>Тестовое задание для компании Tarifnik.ru</h1>
   <p>
     Стек технологий: HTML | CSS | JS | JQuery | SCSS | GIT | Responsive | DaData | Google Maps API
   </p>
